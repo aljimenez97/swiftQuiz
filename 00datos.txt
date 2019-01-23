@@ -1,0 +1,9 @@
+Grupo: g810
+Celia Falcón Lozano
+Alfonso Daniel Jiménez Martínez
+
+Mejoras:
+- Sistema de favoritos: mediante peticiones PUT y DELETE. Guardamos en local el array de quizzes favoritos. Si el servidor no responde denegamos la transacción y mostramos alert informativo.
+- Control de duplicados: hemos diseñado un método que filtra posibles quizzes duplicados. Con ello conseguimos que la aplicación siga funcionando bien a pesar del ataque DOS que sufrió el servidor (sólo mostraba uno de los Quizzes del ataque, al eliminar los duplicados)
+- Modo RandomPlay: jugar a Quiz aleatorio indefinidamente.
+- Interfaz basada en TabBar.
