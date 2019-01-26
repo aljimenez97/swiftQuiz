@@ -7,7 +7,7 @@ Trivia game app implemented in Swift language. Developed for IWEB (UPM) course.
 
 
 ## Improvements:
-- Favourite quizzes service via GET POST requests. If service unavailable, alert is shown.
+- Favourite quizzes service via GET POST requests. If unavailable, alert is shown.
 - Duplicate control as a first protection against DDoS attacks via client
 - Random play
 - TabBar UI.
